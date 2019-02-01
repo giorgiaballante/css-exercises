@@ -1,0 +1,36 @@
+/* Select the body element */
+/* Curly brackets
+{ ----- Shift + Option + è
+} ----- Shift + Option + + */
+
+/* RULE
+selector {
+  property: value;
+ } */
+
+ /* Select the body element */
+body {
+  /* Applied the background color */
+  background-color: rgba(0, 8, 255, 0.945);
+  color: white;
+  
+  /* Default browser text is 16px */
+  font-size: 100%;
+  font-family: "Helvetica";
+}
+
+p {
+  /* Overwrite the font size defined in the body */
+  font-size: 24px;
+  /* font-size: 150%; */
+}
+
+/* Class selector */
+.specialParagraph {
+  background-color: white;
+  color: rgba(0, 8, 255, 0.945);
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px;
+  padding: 20px;
+}
