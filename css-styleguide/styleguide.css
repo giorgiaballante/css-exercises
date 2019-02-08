@@ -31,7 +31,9 @@ body {
     padding: 40px;
 }
 
-a { color: #3BFB42; }
+a {
+    color: #3BFB42;
+}
 
 table {
     margin-top: 100px;
@@ -39,7 +41,7 @@ table {
     width: 100%;
 }
 
-.tr1 {
+.th1 {
     background-color: #3BFB42;
     color: #1434F7;
     border-color: #1434F7;
@@ -48,7 +50,7 @@ table {
     width: 100%;
 }
 
-.tr2 {
+.td2 {
     background-color: #1434F7;
     color: #FFFFFF;
     padding: 25px;
@@ -80,6 +82,7 @@ pre {
     text-align: center;
     padding: 100px;
     color: #3BFB42;
+    width: 100%;
 }
 
 .form1 {
@@ -102,4 +105,3 @@ footer {
     color: #3BFB42;
     text-align: center;
 }
-
