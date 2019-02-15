@@ -17,16 +17,15 @@
 <header>
 
   <!-- navigation: menu -->
-  <nav>
-    <p>THIS IS THE MENU IN THE HEADER</p>
+  <div class="navbar">
     <!-- unordered list -->
     <ul>
       <!-- list item -->
-      <li>list item with a <a href="#">link</a> in an unordered list</li>
-      <li>list item with a <a href="#">link</a> in an unordered list</li>
-      <li>list item with a <a href="#">link</a> in an unordered list</li>
+      <li><a href="#">unordered list item 1</a></li>
+      <li><a href="#">unordered list item 2</a></li>
+      <li><a href="#">unordered list item 3</a></li>
     </ul>
-  </nav>
+  </div>
 
 </header>
 <!-- fine header -->
@@ -56,6 +55,23 @@
     <!-- fine section -->
   </article>
   <!-- fine article -->
+  
+  <!-- inizio div id -->
+  <div id="boxInline">  
+    <!-- div 1 -->
+    <div class="boxClass">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <!-- div 2 -->
+    <div class="boxClass">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <!-- div 3 -->
+    <div class="boxClass">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+  </div>
+  <!-- fine div id-->
 
   <!-- ordered list -->
   <ol class="orderedList">
@@ -99,6 +115,10 @@
     <p class="formText">COGNOME*</p>
     <input type="text" name="cognome">
     <br>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="male" checked> Female
+    <input type="radio" name="gender" value="male" checked> Other
+    <br>
     <p class="formText">DATA DI NASCITA*</p>
     <select name="date">
       <option value="1">1</option>
@@ -110,6 +130,7 @@
     <br><br>
     <textarea name="message" rows="3" cols="3">ciao</textarea>
   </form>
+  <!-- fine form -->
 
 </main>
 <!-- fine main -->

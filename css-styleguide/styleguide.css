@@ -1,9 +1,31 @@
+* {
+    -webkit-border-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "AktivGrotesk-Regular";
+    font-family: "AktivGrotesk-Regular", "Helvetica Regular", sans-serif;
     font-size: 16px;
     color: #1434F7;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+main {
+    margin-top: 150px;
+}
 
 .articleBox {
     background-color: #3BFB42;
@@ -11,10 +33,24 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-top: 5px solid #1434F7;
 }
 
 .sectionBox {
     font-size: 0.8em;
+}
+
+.boxClass {
+    display: inline-block;
+    border: 3px solid #1434F7;
+    margin: 0;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.boxClass p {
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .addressBox {
@@ -31,9 +67,7 @@ body {
     padding: 40px;
 }
 
-a {
-    color: #3BFB42;
-}
+a { color: #3BFB42; }
 
 table {
     margin-top: 100px;
@@ -55,6 +89,7 @@ table {
     color: #FFFFFF;
     padding: 25px;
     font-size: 0.6em;
+    text-align: center;
 }
 
 .orderedList {
@@ -66,6 +101,7 @@ table {
     font-family: "AktivGrotesk-Bold";
     background-color: #3BFB42;
     padding: 20px;
+    border-bottom: 5px solid #1434F7;
 }
 
 .listText {
@@ -89,11 +125,20 @@ pre {
     background-color: #1434F7;
     color: #FFFFFF;
     padding: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .formText {
     font-family: "AktivGrotesk-Bold";
     font-size: 1.2em;
+    display: inline;
+    line-height: 55px;
+}
+
+input {
+    border: 5px solid #3BFB42;
+    margin-left: 20px;
 }
 
 footer {
