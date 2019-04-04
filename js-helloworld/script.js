@@ -21,3 +21,7 @@ var messageToTheWorld = 'Hello world';
 var myName = 'Giorgia';
 
 console.log(messageToTheWorld + ' from ' + myName);
+
+// try to substitute the content of h1 element 
+var titleElement = document.getElementById('title');
+titleElement.innerHTML = messageToTheWorld + ' from ' + myName;
