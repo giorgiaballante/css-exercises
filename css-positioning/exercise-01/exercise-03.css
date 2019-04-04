@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: sans-serif;
+
+  /* background-image: url('bamboo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+
+  background-image: linear-gradient(20deg, yellow 50%, red 60%, blue)
+}
+
+article {
+  margin: 40px auto;
+  padding: 50px 30px;
+
+  max-width:600px;
+  background-color: #eee;
+}
+
+.fake-image {
+  width: 120px;
+  height: 180px;
+
+  background-color: yellow;
+
+  background-image: url('panda.jpg');
+  background-size: cover;
+  background-position: top center;  /* centra immagine nel rettangolo */
+  background-blend-mode: multiply;
+}
+
+.fake-image-alt {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.float-l {
+  float: left;
+  margin: 0 20px 20px 0; /* top right bottom left */
+}
+
+.float-r {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+@media (max-width: 460px) {
+  article {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .fake-image {
+    width: 100%;
+  }
+}

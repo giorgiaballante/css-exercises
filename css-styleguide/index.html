@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="css styleguide">
+  <meta name="author" content="Giorgia Ballante">
+  <meta name="keywords" content="html, css, styleguide">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styleguide.css">
+  <title>CSS Styleguide</title>
+</head>
+
+<body>
+
+<!-- inizio header -->
+<header>
+
+  <!-- navigation: menu -->
+  <nav>
+    <p>THIS IS THE MENU IN THE HEADER</p>
+    <!-- unordered list -->
+    <ul>
+      <!-- list item -->
+      <li>list item with a <a href="#">link</a> in an unordered list</li>
+      <li>list item with a <a href="#">link</a> in an unordered list</li>
+      <li>list item with a <a href="#">link</a> in an unordered list</li>
+    </ul>
+  </nav>
+
+</header>
+<!-- fine header -->
+
+<!-- start main -->
+<main>
+
+  <!-- headings -->
+  <h1>HEADING 1: title of the page, it is the most important</h1>
+  <h2>Heading 2: </h2>
+  <h3>Heading 3: </h3>
+  <h4>Heading 4: </h4>
+  <h5>Heading 5: </h5>
+  <h6>Heading 6: it is the least</h6>
+
+  <!-- article -->
+  <article class="articleBox">
+    <h3>Heading 3: article title</h3>
+    <!-- section -->
+    <section class="sectionBox">
+      <!-- paragraphs -->
+      <p class="paragraphText">paragraph with <strong>strong words: text in bold</strong></p>
+      <p class="paragraphText">paragraph with <strong>strong words: text in bold</strong></p>
+      <p class="paragraphText">paragraph with <em>emphasis words: text in italics</em></p>
+      <p class="paragraphText">paragraph with <em>emphasis words: text in italics</em></p>
+    </section>
+    <!-- fine section -->
+  </article>
+  <!-- fine article -->
+
+  <!-- ordered list -->
+  <ol class="orderedList">
+    <p class="listTitle">THIS IS AN ORDERED LIST</p>
+    <!-- list item -->
+    <li class="listText">list item with a <a href="#">link</a> in an ordered list</li>
+    <li class="listText">list item with a <a href="#">link</a> in an ordered list</li>
+    <li class="listText">list item with a <a href="#">link</a> in an ordered list</li>
+  </ol>
+
+  <!-- description list -->
+  <dl class="descriptionList">
+    <dt class="listTitle">Definition term: identifies a term in a description list</dt>
+    <dd class="listText">description of the term 1</dd>
+    <dd class="listText">description of the term 2</dd>
+    <dd class="listText">description of the term 3</dd>
+  </dl>
+
+  <!-- table -->
+  <table>
+    <caption class="tableTitle">Caption represents the title of a table</caption>
+    <tr>
+      <th colspan="2" class="th1">The HTML element table header cell defines a cell that is a header for a group of cells of a table.</th>
+    </tr>
+    <tr>
+      <td class="td2">Table cell HTML element defines a cell of a table that contains data</td>
+      <td class="td2">Table cell HTML element defines a cell of a table that contains data</td>
+    </tr>
+  </table>
+  <!-- fine table -->
+
+  <!-- preformatted text -->
+  <pre>Preformatted text: text within this element is typically displayed in a non-proportional font exactly as it is laid out in the file. Whitespaces inside this element are displayed as typed</pre>
+  <!-- fine preformatted text -->
+
+  <!-- form -->
+  <form class="form1">
+    <p class="formText">NOME*</p>
+    <input type="text" name="nome">
+    <br>
+    <p class="formText">COGNOME*</p>
+    <input type="text" name="cognome">
+    <br>
+    <p class="formText">DATA DI NASCITA*</p>
+    <select name="date">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <br><br>
+    <input type="checkbox" name="input" value="ABC">Accetto i termini
+    <br><br>
+    <textarea name="message" rows="3" cols="3">ciao</textarea>
+  </form>
+
+</main>
+<!-- fine main -->
+
+<!-- start footer -->
+<footer>
+  <p class="footerText">THIS IS THE FOOTER</p>
+  <!-- address -->
+  <div class="addressBox">
+      <address>Address: you can contact me at my <a href="https://www.facebook.com/giorgia.ballante.3">Facebook</a> account</address>
+      <address>Address: you can contact me at my mail <a href="mailto:gioballante@gmail.com">gioballante@gmail.com</a></address>
+      <address>Address: you can call me at <a href="tel:3466468789">3466468789</a></address>
+    </div>
+    <!-- fine address -->
+</footer>
+<!-- fine footer -->
+    
+</body>
+</html>

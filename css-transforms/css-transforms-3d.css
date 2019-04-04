@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+   /* center */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+:root {
+  /* define a custom property */
+  --box-size: 100px;
+}
+
+.card {
+  border: 5px solid red;
+  position: relative;
+
+  /* swith tra un lato e l'altro */
+  transform-style: preserve-3d;
+  font-size: 4em;
+}
+
+.side {
+  /* use the custom property by wrapping it in var()*/
+  width: var(--box-size);
+  height: var(--box-size);
+  text-align: center;
+  line-height: var(--box-size);
+
+  /* you can't see the element from behind */
+  backface-visibility: hidden;
+}
+
+.side-front {
+  /* overwrite the custom property value only for the box */
+  /* --box-size: 150px; */
+  color: black;
+}
+
+.side-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  color: red;
+  /* border-radius: 50%; */
+
+  transform: rotateY(180deg);
+}
+
+/* Transforms */
+body {
+  perspective: 150px;
+  /* default value */
+  perspective-origin: center;
+}
+
+.transform {
+  transition: transform 1500ms ease-in-out;
+}
+
+body:hover .transform{
+  transform: rotateY(180deg);
+}

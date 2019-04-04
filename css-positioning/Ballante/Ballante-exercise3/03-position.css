@@ -1,0 +1,55 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 500px;
+    height: 220px;
+    background-color: black;
+
+    position: relative;
+    
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.fake-image1 {
+    width: 120px;
+    height: 120px;
+
+    background-color: yellow;
+
+    position: absolute;
+
+    margin-left: 50px;
+    margin-top: 50px;
+
+    float: left;
+}
+
+p {
+    color: white;
+    line-height: 1.3em;
+    float: left;
+
+    width: 250px;
+    margin-bottom: 300px;
+
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.redCircle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+
+    float: right;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 430px;
+}
+

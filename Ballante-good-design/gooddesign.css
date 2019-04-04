@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0;
+  font-family: "Times New Roman";
+}
+
+main {
+  height: 3000px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.top-line {
+  background-color: black;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 980px;
+  height: 2400px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.logo {
+  max-width: 150px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+a {
+  display: inline;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Arial";
+  font-size: 24px;
+
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+  height: 300px;
+
+  background-color: grey;
+  background-image: url(dieter-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-text {
+  width: 480px;
+  float: right;
+}
+
+.dieter-quote {
+  float: right;
+
+  font-size: 46px;
+  font-style: italic;
+  width: 470px;
+}
+
+.name-quote {
+  float: right;
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+.principle-01 {
+  margin-top: 100px;
+  position: relative;
+} 
+
+.img1 {
+  float: right;
+  margin-right: 10px;
+}
+
+.text-01 {
+  max-width: 460px;
+  margin-left: 100px;
+
+  position: absolute;
+}
+
+.number01 {
+  background-color: #ffcc00;
+  color: white;
+
+  padding: 20px;
+  border-radius: 50%;
+
+  margin-left: -90px;  
+}
+
+.principle-02 {
+  height: 300px;
+  position: relative;
+  margin-top: 700px;
+}
+
+.number-02 {
+  background-color: #e8420d;
+  color: white;
+
+  padding: 20px;
+  border-radius: 50%;
+  margin-left: -90px;
+}
+
+.img2 {
+  margin-left: 10px;
+}
+
+.text-02 {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+.principle-03 {
+  position: relative;
+  margin-top: 300px;
+  margin-left: 10px;
+}
+
+.number-03 {
+  background-color: #c92424;
+  color: white;
+
+  padding: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.text-03 {
+  position: absolute;
+  margin-top: 50px;
+  max-width: 600px;
+}
+
+.img3 {
+  float: right;
+}
+
+.text-principle-03 {
+  margin-left: 100px;
+}
+
+footer {
+  height: 300px;
+  background-color: #39b54a;
+}
+
+.footer-text {
+  width: 400px;
+  float: right;
+}
+
+.dieter-quote2 {
+  float: right;
+  color: white;
+
+  font-size: 46px;
+  font-style: italic;
+  width: 470px;
+}
+
+.name-quote2 {
+  float: right;
+  color: white;
+  margin-top: -15px;
+  margin-right: 25px;
+}
+
+.line2 {
+  float: left;
+  margin-left: -70px;
+}
+
+@media screen and (max-width: 960px ) {
+
+  .principle-01 {
+    margin-left: 10px;
+  }
+
+  .img1 {
+    margin-top: 300px;
+  }
+
+  .principle-02 {
+    margin-top: 900px;
+    margin-left: -380px; 
+  }
+
+  .text-principle-02 {
+    margin-right: 20px;
+  }
+
+  .img2 {
+    float: right;
+    margin-right: -220px;
+    margin-top: 370px;
+  }
+
+  .principle-03 {
+    margin-top: 600px;
+    margin-left: 20px;
+  }
+
+  .img3 {
+    margin-top: 300px;
+    margin-right: 20px;
+  }
+
+  footer {
+    margin-top: 800px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 800px ) {
+
+.principle-01 {
+  margin-left: 10px;
+  width: 500px;
+}
+
+.img1 {
+  margin-top: 350px;
+  margin-right: -20px;
+}
+
+.principle-02 {
+  margin-top: 1000px;
+  margin-left: -240px;
+  width: 950px;
+}
+
+.img2 {
+  margin-right: 10px;
+  padding-top: 70px;
+}
+
+.principle-03 {
+  margin-top: 650px;
+  margin-left: 10px;
+}
+
+.img3 {
+  margin-top: 300px;
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 900px;
+}
+
+.dieter-quote2 {
+  width: 650px;
+  margin: 60px auto;
+}
+
+}
+
+@media screen and ( max-width: 700px ) {
+
+  .principle-02 {
+    margin-left: -300px;
+  }
+
+  .img2 {
+    margin-right: 120px;
+  }
+
+  .text-principle-02 {
+    max-width: 400px;
+  }
+
+  .dieter-quote2 {
+    max-width: 470px;
+
+  }
+}
+
+@media screen and ( max-width: 640px ) {
+
+  .principle-02 {
+    margin-left: -370px;
+  }
+
+  .img2 {
+    margin-right: 50px;
+  }
+}
+

@@ -1,0 +1,141 @@
+body {
+  font-family: "Helvetica", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* menu */
+.menu {
+  position: fixed;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
+
+.menu li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* end of the menu style */
+
+/* every link has white text */
+a {
+  color: white;
+}
+
+/* main start after the menu */
+main {
+  margin-top: 100px;
+}
+
+
+
+h1 {
+  padding: 30px;
+  position: absolute;
+  bottom: 70%;
+
+
+  text-align: center;
+  font-size: 3em;
+  font-family: "Helvetica-Bold";
+  color: white;
+  background-color: black;
+  }
+
+  .mission p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Helvetica-Bold";
+  }
+
+  h3 {
+    padding: 30px;
+
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+    font-family: "Helvetica-Bold";
+  }
+
+  .contactText {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .info {
+    text-align: center;
+    color: grey;
+    font-size: 1.2em;
+  }
+
+  /* menu style */
+  #menu {
+    margin-top: 100px;
+  }
+
+  #menu p {
+    text-align: center;
+    font-family: "Helvetica-Bold";
+  }
+
+  /* table style for the menu */
+  table {
+    margin-top: 100px;
+    margin-left: 30%;
+    line-height: 30px;
+    width: 800px;
+  }
+
+  .price {
+    color: rgb(255, 0, 89);
+    padding-left: 80px;  
+  }
+
+  /* form style */
+  form {
+    padding-bottom: 40px; 
+    padding-top: 30px;
+    margin-left: 30%; 
+
+    background-color: rgb(255, 0, 89);
+    color: white;
+    width: 500px;
+  }
+
+  .formText {
+    margin-left: 50px;
+  }
+
+  input {
+    margin-left: 50px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    width: 400px;
+    text-align: center;  
+  }
+
+  /* footer style */
+  footer {
+    background-color: rgb(255, 0, 89);
+    color: white; 
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px; 
+  }

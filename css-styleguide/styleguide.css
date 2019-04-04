@@ -1,0 +1,107 @@
+body {
+    font-family: "AktivGrotesk-Regular";
+    font-size: 16px;
+    color: #1434F7;
+}
+
+
+.articleBox {
+    background-color: #3BFB42;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sectionBox {
+    font-size: 0.8em;
+}
+
+.addressBox {
+    font-family: "AktivGrotesk-Bold";
+    font-size: 2em;
+}
+
+.tableTitle {
+    font-family: "AktivGrotesk-Bold";
+    font-size: 1.5em;
+    background-color: #1434F7;
+    color: #3BFB42;
+    text-align: center;
+    padding: 40px;
+}
+
+a {
+    color: #3BFB42;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.th1 {
+    background-color: #3BFB42;
+    color: #1434F7;
+    border-color: #1434F7;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.td2 {
+    background-color: #1434F7;
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 0.6em;
+}
+
+.orderedList {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.listTitle {
+    font-family: "AktivGrotesk-Bold";
+    background-color: #3BFB42;
+    padding: 20px;
+}
+
+.listText {
+    font-size: 0.8em;
+}
+
+.descriptionList {
+    text-align: center;
+    margin-top: 50px;
+}
+
+pre {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 100px;
+    color: #3BFB42;
+    width: 100%;
+}
+
+.form1 {
+    background-color: #1434F7;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.formText {
+    font-family: "AktivGrotesk-Bold";
+    font-size: 1.2em;
+}
+
+footer {
+    border-color: #3BFB42;
+    margin-top: 50px; 
+}
+
+.footerText {
+    color: #3BFB42;
+    text-align: center;
+}

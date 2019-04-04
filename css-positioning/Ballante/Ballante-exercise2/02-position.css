@@ -1,0 +1,23 @@
+.wrapper {
+    background-color: #dddddd;
+    width: 70%;
+}
+
+.text {
+    padding: 30px;
+}
+
+.fake-image1 {
+    width: 70px;
+    height: 150px;
+    background-color: yellow;
+    float: left;
+    margin-right: 20px;
+}
+
+.fake-image2 {
+    width: 70px;
+    height: 150px;
+    background-color: yellow;
+    float: right;
+}

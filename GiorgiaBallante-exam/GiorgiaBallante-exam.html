@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="vegan restaurant website">
+  <meta name="keywords" content="restaurant, vegan, menu, delivery, food">
+  <meta name="author" content="Giorgia Ballante">
+  <link rel="stylesheet" href="GiorgiaBallante-exam.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Green Corner - Vegan Restaurant</title>
+</head>
+<body>
+
+<!-- start heaer -->
+<header>
+  <!-- start menu -->
+  <nav class="menu">
+    <ul>
+      <li><a href="#home">ABOUT US</a></li>
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <!-- end of the menu -->
+</header>
+<!-- end of the header -->
+
+<main>
+
+  <!-- image of the restaurant -->
+  <div class="photoRestaurant">
+    <img src="food.jpg" width="100%" alt="the green square, vegan restaurant">
+    <h1>The Green Corner</h1>
+  </div>
+
+  <!-- mission of the restaurant -->
+  <div class="mission">
+    <p>OUR GOAL is to CREATE FOOD that RESTORES, REPLENISHES, and REVIVES.</p>
+    <p>Enjoy your meal in the best green corner of the city</p>
+  </div>
+
+
+  <!-- info about the restaurant -->
+  <section id="home">
+    <!-- about us -->
+    <h3>About us</h3>
+      <article>
+        <!-- what the restaurant does, how the restaurant works -->
+        <h4>The restaurant</h4>
+        <img src="restaurant.jpg" width="100%" alt="restaurant">
+        <p class="info">The restaurant is created to give you relax while you are eating your healthy dishes</p>
+        <p class="info">You can sit outside and inside... in every place you are surrounded by the green of the plants, the parfum of the nature.</p>
+        <p class="info">It's the best place if you want to take a break of the rush of you day, you cna sit reading a book, taking a coffee with you bestfriend, eat the best avocado toast of the city ;-)</p>
+      </article>
+
+      <article>
+        <!-- introduction of the chef of the restaurant -->
+        <h4>The chef</h4>
+        <img src="chef.jpg" width="100%" alt="chef">
+        <p class="info">Marco is our chef, he is always researching the best ingredients for the creation of the dishes</p>
+        <p class="info">He tries everyday to create the best menu for our customers, we want they feel at home and he does the possible to give to our food the magic of an home lunch or dinner.</p>
+      </article>
+  </section>
+  <!-- end of the restaurant info -->
+
+  <!-- menu section -->
+  <section id="menu">
+    <!-- menu -->
+    <h3>Our menu</h3>
+    <p>We have two variations of our menu to be sure to give the best to our clients</p>
+
+    <!-- menu lunch -->
+    <article class="menu1">
+    <table>
+      <tr>
+        <th>LUNCH MENU</th>
+      </tr>
+      <tr>
+        <td><strong>Soup of the day</strong> with toasted sourdough</td>
+        <td class="price">7€</td>
+      </tr>
+      <tr>
+        <td><strong>Inari tofu wraps</strong> Brown rice & oyster mushroom, gochujang cream, daikon</td>
+        <td class="price">7.5€</td>
+      </tr>
+      <tr>
+        <td><strong>Middle eastern salad</strong> Sweet potato, pomegranate, green beans, herbs, roasted red pepper, oakleaf, frisse, sunflower seeds, zaatar and tahini dressing</td>
+        <td class="price">13.5€</td>
+      </tr>
+      <tr>
+        <td><strong>The burger</strong> Haloumi & Portobello burger, tomato, gherkins, spring onion & mustard relish, gochujang mayo, brioche bun, skin on skinny fries, coleslaw</td>
+        <td class="price">14.5€</td>
+      </tr>
+      <tr>
+        <td><strong>Pea, mint and feta arancini</strong></td>
+        <td class="price">14.5€</td>
+      </tr>
+    </table>
+    </article>
+    <!-- end of the lunch menu -->
+
+    <!-- dinner menu -->
+    <article class="menu2">
+    <table>
+      <tr>
+        <th colspan="2">DINNER MENU</th>
+      </tr>
+      <tr>
+        <td><strong>Selection of artisan bread and house olives</strong> served with extra virgin olive oil & dukkah</td>
+        <td class="price">8€</td>
+      </tr>
+      <tr>
+        <td><strong>Creamy burrata</strong> Basil pesto, sun-dried tomato pesto, balsamic glaze, crostini</td>
+        <td class="price">8.5€</td>
+      </tr>
+      <tr>
+        <td><strong>Black olive polenta</strong> Braised baby aubergine, olive tapenade, sun- blushed tomato, red pepper gel</td>
+        <td class="price">10€</td>
+      </tr>
+      <tr>
+        <td><strong>Portobello mushrooms</strong> Goat’s cheese, black quinoa & sun-dried tomato, with potato gratin, black garlic puree, fine beans, apricot pesto</td>
+        <td class="price">15€</td>
+      </tr>
+      <tr>
+        <td><strong>The curry</strong> Braised aubergine & courgette, with lentil, basmati rice, poppadum, mango chutney & coconut tzatziki</td>
+        <td class="price">15€</td>
+      </tr>
+    </table>
+    </article>
+    <!-- end of the dinner menu -->
+
+  </section>
+  <!-- end of the section about the menu -->
+
+  <!-- contact -->
+  <section id="contact">
+    <h3>Contact us</h3>
+    <p class="contactText">You can call us at 012345678 every day from 9.00am to 11pm and make sure you have your place reserved</p>
+    
+    <!-- form -->
+    <form action="/action_page.php">
+      <h4>Subscribe to our email to get your food delivered</h4>
+      <p class="formText">Name Surname</p>
+      <input type="text" name="name surname">
+      <p class="formText">Email</p>
+      <input type="text" name="email">
+      <p class="formText">Phone number</p>
+      <input type="text" name="phone number">
+      <p class="formText">Address</p>
+      <input type="text" name="address">
+      <p class="formText">Choose the hour</p>
+      <input type="checkbox" name="lunch">Lunch
+      <input type="checkbox" name="lunch">Dinner
+      <br>
+      <input class="submit" type="submit" name="submit">     
+    </form>
+     <!-- end of the form -->
+  </section>
+
+</main>
+
+<!-- start footer -->
+<footer>
+  <!-- copyright -->
+  <div id="copyright">
+    <p>&copy; 2019 The Green Corner</p>
+  </div>
+
+  <!-- social + links -->
+  <div id="social">
+    <p>You can find us on <a href="https://www.facebook.com">Facebook</a></p>
+    <p>You can find us on <a href="https://www.instagram.com">Instagram</a></p>
+  </div>
+
+</footer>
+<!-- end of the footer -->
+  
+</body>
+</html>
