@@ -1,9 +1,39 @@
+<<<<<<< HEAD
 body {
     font-family: "AktivGrotesk-Regular";
+=======
+* {
+    -webkit-border-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "AktivGrotesk-Regular", "Helvetica Regular", sans-serif;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
     font-size: 16px;
     color: #1434F7;
 }
 
+<<<<<<< HEAD
+=======
+.navbar {
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+main {
+    margin-top: 150px;
+}
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 
 .articleBox {
     background-color: #3BFB42;
@@ -11,12 +41,32 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+<<<<<<< HEAD
+=======
+    border-top: 5px solid #1434F7;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 }
 
 .sectionBox {
     font-size: 0.8em;
 }
 
+<<<<<<< HEAD
+=======
+.boxClass {
+    display: inline-block;
+    border: 3px solid #1434F7;
+    margin: 0;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.boxClass p {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 .addressBox {
     font-family: "AktivGrotesk-Bold";
     font-size: 2em;
@@ -31,9 +81,13 @@ body {
     padding: 40px;
 }
 
+<<<<<<< HEAD
 a {
     color: #3BFB42;
 }
+=======
+a { color: #3BFB42; }
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 
 table {
     margin-top: 100px;
@@ -55,6 +109,10 @@ table {
     color: #FFFFFF;
     padding: 25px;
     font-size: 0.6em;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 }
 
 .orderedList {
@@ -66,6 +124,10 @@ table {
     font-family: "AktivGrotesk-Bold";
     background-color: #3BFB42;
     padding: 20px;
+<<<<<<< HEAD
+=======
+    border-bottom: 5px solid #1434F7;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 }
 
 .listText {
@@ -89,11 +151,26 @@ pre {
     background-color: #1434F7;
     color: #FFFFFF;
     padding: 50px;
+<<<<<<< HEAD
+=======
+    margin-right: 50px;
+    margin-left: 50px;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 }
 
 .formText {
     font-family: "AktivGrotesk-Bold";
     font-size: 1.2em;
+<<<<<<< HEAD
+=======
+    display: inline;
+    line-height: 55px;
+}
+
+input {
+    border: 5px solid #3BFB42;
+    margin-left: 20px;
+>>>>>>> acfeaa3c99b69ba1a4ad1de906456d2b5e4d4e7f
 }
 
 footer {
